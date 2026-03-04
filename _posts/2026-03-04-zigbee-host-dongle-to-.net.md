@@ -96,9 +96,6 @@ await client.SubscribeAsync("zigbee2mqtt/#");
 
 Zigbee2MQTT publishes device data as JSON to topics like `zigbee2mqtt/your-device-name`.
 
-
-
-
 . To get a device list, publish to the bridge topic:
 
 **From the command line:**
