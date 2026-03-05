@@ -2,7 +2,7 @@
 title: Zigbee host dongle to .NET
 date: 2026-03-04T17:52:00
 ---
-*Basic install of a Zigbee dongle, and then makign the interface available to a .Net application
+*Basic install of a Zigbee dongle, and then making the interface available to a .Net application*
 
 **The target stack**
 
