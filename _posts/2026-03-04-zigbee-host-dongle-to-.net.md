@@ -46,6 +46,8 @@ ls /dev/serial/by-id/
 
 It'll show something like `usb-ITead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_...`
 
+-- I get usb-ITead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_eadae30e6c8bef11ad452bccef8776e9-if00-port0
+
 **Step 4: Configure Zigbee2MQTT**
 
 Edit `/opt/zigbee2mqtt/data/configuration.yaml`:
