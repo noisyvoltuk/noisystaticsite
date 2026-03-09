@@ -25,6 +25,7 @@ navbar-links:
     - MIDI Drummer: "projects/mididrummer"
     - Jasper Synth: "projects/jaspersynth"
     - CSound Synth: "projects/csoundsynth"
+    - Mozzi Synth: "projects/mozzisynth"
   Resources:
     - YouTube: "https://www.youtube.com/@noisyvolt1383"
     - Learn markdown: "https://www.markdowntutorial.com/"
