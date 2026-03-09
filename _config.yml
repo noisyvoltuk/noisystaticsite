@@ -26,6 +26,7 @@ navbar-links:
     - Jasper Synth: "projects/jaspersynth"
     - CSound Synth: "projects/csoundsynth"
     - Mozzi Synth: "projects/mozzisynth"
+    - Sample player: "projects/sampleplayer"
   Resources:
     - YouTube: "https://www.youtube.com/@noisyvolt1383"
     - Learn markdown: "https://www.markdowntutorial.com/"
