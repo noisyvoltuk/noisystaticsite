@@ -7,5 +7,4 @@ subtitle: how to play a few tunes riffs and beats
 
 just some guff
 
-
-list of posts here
+{% include posts-by-tag.html tag="how to play" %}
