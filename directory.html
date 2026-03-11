@@ -5,10 +5,6 @@ description: Find local businesses in our community
 permalink: /directory/
 ---
 
-{% for profile in site.businesses %}
-  {{ profile.key }} → {{ profile.url }}
-{% endfor %}
-
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap');
 
@@ -364,8 +360,10 @@ function cardHTML(b) {
 
   const actions = (hasProfile || hasWebsite) ? `
     <div class="biz-actions">
-      ${hasProfile ? `<a class="primary" href="${b.page_url}">Full profile ${ARROW_SVG}</a>` : ''}
-      ${hasWebsite ? `<a class="secondary" href="${b.website}" target="_blank" rel="noopener">Website ${EXT_SVG}</a>` : ''}
+      ${hasProfile
+        ? `<a class="primary" href="${b.page_url}">Full profile ${ARROW_SVG}</a>`
+        : `<a class="secondary" href="${b.website}" target="_blank" rel="noopener">Website ${EXT_SVG}</a>`
+      }
     </div>` : '';
 
   return `
