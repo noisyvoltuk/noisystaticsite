@@ -306,7 +306,7 @@ permalink: /directory/
 // page_url is set and the card gets a "Full profile" link; otherwise it's "".
 const BUSINESSES = [
   {% for biz in site.data.businesses %}
-  {% assign profile = site.businesses | where: "title", biz.name | first %}
+  {% assign profile = site.businesses | where: "key", biz.key | first %}
   {
     name:        {{ biz.name        | jsonify }},
     category:    {{ biz.category    | jsonify }},
