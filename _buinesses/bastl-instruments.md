@@ -1,6 +1,7 @@
 ---
 layout: business
 title: "Bastl Instruments"
+key: "bastl-instruments"
 category: "Food & Drink"
 emoji: "🥐"
 description: "Artisan bakery and café serving freshly baked pastries, sourdough bread, and specialty coffee every morning."
