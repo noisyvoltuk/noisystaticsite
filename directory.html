@@ -300,21 +300,22 @@ permalink: /directory/
 </div>
 
 <script>
-// Data is injected by Jekyll from the _businesses/ collection.
-// page_url is automatically populated when a _businesses/*.md file exists —
-// businesses without a profile file simply won't have it, and the card
-// gracefully falls back to showing just a website link (or nothing).
+// All businesses come from _data/businesses.yml — every entry always appears
+// in the directory. For each one, we check if a matching _businesses/*.md file
+// exists by looking for a collection item with the same title. If found,
+// page_url is set and the card gets a "Full profile" link; otherwise it's "".
 const BUSINESSES = [
-  {% for biz in site.businesses %}
+  {% for biz in site.data.businesses %}
+  {% assign profile = site.businesses | where: "title", biz.name | first %}
   {
-    name:        {{ biz.title       | jsonify }},
+    name:        {{ biz.name        | jsonify }},
     category:    {{ biz.category    | jsonify }},
     emoji:       {{ biz.emoji       | default: "🏪" | jsonify }},
     description: {{ biz.description | jsonify }},
     address:     {{ biz.address     | default: "" | jsonify }},
     phone:       {{ biz.phone       | default: "" | jsonify }},
     website:     {{ biz.website     | default: "" | jsonify }},
-    page_url:    {{ biz.url         | jsonify }}
+    page_url:    {{ profile.url     | default: "" | jsonify }}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ];
