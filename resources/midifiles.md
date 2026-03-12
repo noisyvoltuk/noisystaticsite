@@ -1,11 +1,11 @@
 ---
-
-
+layout: page
+title: Some MIDI Files
 ---
-
 
 
 a gallery of midi files here
 
-<a href="/assets/midi/song1.mid" download>Download Song 1</a>
+# Ultravox
+<a href="/assets/midi/Astradyne.mid" download>Astradyne</a>
 
