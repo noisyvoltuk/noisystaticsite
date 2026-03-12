@@ -46,3 +46,11 @@
   address: "22 Church Lane"
   phone: "01234 567894"
   website: "https://www.musicthing.co.uk/
+
+- name: "Exploding Shed"
+  key: "exploding-shed"
+  category: "Synth DIY"
+  emoji: "📚"
+  description: "Synth DIY Shop"
+  country: "Germany"
+  website: "https://www.exploding-shed.com/
