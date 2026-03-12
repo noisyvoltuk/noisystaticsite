@@ -1,7 +1,14 @@
 ---
+layout: post
 title: The Thin Wall Sounds
-date: 2026-03-11T14:59:00
+subtitle: how to make the sounds
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
+tags: [how to play, ultravox]
+author: Andy
 ---
+
 
 The Thin Wall needs that cold, precise, slightly harsh early-80s sound — so you actually don't need anything fancy. Here are some good options across different approaches:
 
