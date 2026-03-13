@@ -5,7 +5,8 @@ Deployed as a static app on DigitalOcean
 additional data sets businesses.yml.
 
 Posts can be edited using Sveltia CMS at /admin
-Business can be edited usign the custom application - NoisyJekyllAdmin
+
+Business can be edited using the custom application - NoisyJekyllAdmin
 
 
 
