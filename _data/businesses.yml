@@ -47,6 +47,15 @@
   phone: "01234 567894"
   website: "https://www.musicthing.co.uk/"
 
+- name: "Synths on Tindie"
+  key: "synths-on-tindie"
+  category: "Synth DIY"
+  emoji: "📚"
+  description: "various small batch kits and modules"
+  address: "22 Church Lane"
+  phone: "01234 567894"
+  website: "https://www.tindie.com/browse/synths/"
+
 - name: "Exploding Shed"
   key: "exploding-shed"
   category: "Synth DIY"
