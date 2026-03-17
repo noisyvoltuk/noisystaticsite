@@ -278,8 +278,8 @@ permalink: /directory/
 
   <div class="dir-hero">
     <div class="dir-count" id="dir-badge">Loading…</div>
-    <h1>Local Business<br><em>Directory</em></h1>
-    <p>Discover and support businesses in our community.</p>
+    <h1>Business<br><em>Directory</em></h1>
+
     <div class="dir-search-wrap">
       <svg viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" d="m21 21-4.35-4.35"/></svg>
       <input type="search" id="dir-search" placeholder="Search businesses, categories…" autocomplete="off">
@@ -372,7 +372,6 @@ function cardHTML(b) {
   
         <div class="biz-badges">
           <span class="biz-cat-tag">${b.category}</span>
-          ${hasProfile ? `<span class="biz-profile-badge">Profile</span>` : ''}
         </div>
       </div>
       <div class="biz-name">${b.name}</div>
